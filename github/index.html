@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title></title>
+  <title>GitHub Profile Finder</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=devicewidth,initial-scale=1.0,shrink-to-fit=none" />
-  <link rel="stylesheet" href="screen.css" />
+  <link rel="stylesheet" href="../screen.css" />
 </head>
 <body>
+  <form id="github-search" action="#null" method="get">
+    <h1>Search for a Github User</h1>
+    <ol>
+      <li>
+        <label>Enter Github Username</label>
+        <input type="search" id="username" name="username" />
+      </li>
+      <li>
+        <label class="accessibility">Do Search</label>
+        <input type="submit" id="submit" name="submit" value="search" />
+      </li>
+    </ol>
+  </form>
+  <ul id="results">
+    <li class="username">Username: <b></b></li>
+    <li class="name">Name: <b></b></li>
+    <li class="photo">Photo: <img /></li>
 
+  <script src="../github/github.js"></script>
 </body>
 </html>
