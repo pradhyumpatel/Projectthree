@@ -46,6 +46,11 @@ img {
   padding-top: 0.5em;/*10px/20px*/
 }
 
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(238deg, rgba(2,0,36,1) 0%, rgba(130,130,217,1) 41%, rgba(0,212,255,1) 100%);
+}
+
 .background img {
   min-height: 100%;
   background-position: center;
@@ -75,6 +80,7 @@ img {
 .nav a:hover {
   background: #f4853b;
 }
+
 
 
 /* Home page Intro Paragraph Changes */
