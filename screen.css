@@ -51,6 +51,11 @@ body{
   background: linear-gradient(238deg, rgba(2,0,36,1) 0%, rgba(130,130,217,1) 41%, rgba(0,212,255,1) 100%);
 }
 
+input,
+label {
+  display: block;
+}
+
 .background img {
   min-height: 100%;
   background-position: center;
@@ -74,14 +79,22 @@ body{
   display: block;
   text-decoration: none;
   background: rgb(31,164,157);
-  background: linear-gradient(90deg, rgba(31,164,157,1) 37%, rgba(70,252,79,1) 100%); 
+  background: linear-gradient(90deg, rgba(31,164,157,1) 37%, rgba(70,252,79,1) 100%);
   padding: 0.45em; /*9px/20px*/
 }
 .nav a:hover {
   background: #f4853b;
 }
 
+.accessibility {
+  position: absolute;
+  left: -100000px;
+}
 
+
+.photo img{
+  border-radius: 75%;
+}
 
 /* Home page Intro Paragraph Changes */
 #intro {
@@ -100,6 +113,9 @@ body{
   font-family: "Source Sans Pro", sans-serif;
 }
 
+#results {
+  padding-top: 1.25em;
+}
 
 
 /* Begin State styles below */
@@ -113,7 +129,7 @@ body{
   }
   .nav li {
     float: left;
-    width: 33.3333333333%;
+    width: 25%;
     text-align: center;
   }
   .nav a {
